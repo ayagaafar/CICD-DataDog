@@ -5,7 +5,8 @@
     <title>Welcome To First Ascension Day</title>
 </head>
 <body>
-    <h1>Welcome To First Ascension Day</h1>
+<div style="background-image: url('background.jpeg');">
+    <h1> Leave Your Print Here :) </h1>
     <p></p>
 </body>
 </html>
