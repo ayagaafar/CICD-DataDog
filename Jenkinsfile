@@ -12,7 +12,7 @@ pipeline {
     	docker-compose --version
         docker-compose up -d
         curl -vk "http://localhost:8123/"
-			  		
+	rm -rf /var/lib/jenkins/workspace/*		  		
 	'''
             }
         }
