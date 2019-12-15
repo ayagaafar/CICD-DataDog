@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Monitoring & CICD</title>
+    <title>Welcome To First Ascension Day</title>
 </head>
 <body>
-    <h1>Monitoring & CICD</h1>
+    <h1>Welcome To First Ascension Day</h1>
     <p></p>
 </body>
 </html>
