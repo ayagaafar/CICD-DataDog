@@ -2,6 +2,8 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
 <style>
 body, html {
   height: 100%;
@@ -21,8 +23,6 @@ body, html {
   background-size: cover;
 }
 </style>
-</head>
-<body>
     <h1> Leave Your Print Here :) </h1>
 </body>
 </html>
