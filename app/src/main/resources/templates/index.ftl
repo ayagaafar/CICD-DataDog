@@ -12,7 +12,7 @@ body, html {
 
 .bg {
   /* The image used */
-  background-image: src("background.jpeg");
+  background-image: src("background.jpg");
 
   /* Full height */
   height: 100%; 
