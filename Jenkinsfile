@@ -1,5 +1,8 @@
 node {
-
+		agent {
+		label "docker-slave-agent"
+	}
+	
 		checkout scm
 		stage ('Test') {
                  	
