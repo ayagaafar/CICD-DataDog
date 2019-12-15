@@ -9,7 +9,7 @@ pipeline {
     	sudo chmod +x /usr/local/bin/docker-compose
 	sudo docker ps
     	docker-compose --version
-        sudo docker-compose up --build
+        docker-compose up --build
         curl -vk "http://localhost:8123/"
 			  		
 	'''
