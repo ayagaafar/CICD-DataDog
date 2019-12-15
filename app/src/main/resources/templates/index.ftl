@@ -2,7 +2,7 @@
 <html lang="en">
 <style>
 body {
-  background-image: url('background.jpeg');
+  background-image: url('./app/src/main/resources/templates/background.jpeg');
   background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size: cover;
