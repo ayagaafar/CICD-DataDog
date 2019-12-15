@@ -16,6 +16,7 @@ services:
    - ./nginx/nginx.key:/etc/ssl/nginx.key
    - ./nginx/dhparam.pem:/etc/ssl/dhparam.pem
    - ./nginx/index.html:/usr/share/nginx/html/index.html
+   - ./app/src/main/resources/templates/background.jpeg:/usr/share/nginx/html/background.jpeg
    depends_on:
    - app
 
