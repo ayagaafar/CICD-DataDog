@@ -33,6 +33,7 @@ services:
    restart: always
   
   app:
+    container_name: ascensionday_app
     restart: always
     build: ./app
     working_dir: /app
