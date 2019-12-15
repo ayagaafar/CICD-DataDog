@@ -5,7 +5,7 @@
 
 <style>
 body {
-	background-image: url("background.jpeg");
+	background_image: url('background.jpeg');
         background-repeat:no-repeat;
        background-size:cover;
 } 
