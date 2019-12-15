@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<style>
+<head>
+    <title>Welcome To First Ascension Day</title>
+    <style>
 body {
-  background-image: url('background.jpeg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;  
-  background-size: cover;
+  background-image: url("background.jpeg");
+  background-position: 50% 50%;
+  background-repeat: repeat;
 }
 </style>
-<head>
-    <meta charset="UTF-8">
-    <title>Welcome To First Ascension Day</title>
 </head>
 <body>
     <h1> Leave Your Print Here :) </h1>

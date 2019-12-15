@@ -14,6 +14,7 @@ pipeline {
         curl -vk "http://localhost:8123/"
 			  		
 	'''
+		    
             }
         }
     }
