@@ -14,7 +14,7 @@ pipeline {
         curl -vk "http://localhost:8123/"
 			  		
 	'''
-		    cleanWs()
+		    deleteDir()
             }
         }
     }
