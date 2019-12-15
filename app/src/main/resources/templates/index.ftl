@@ -15,7 +15,13 @@ body {
 
 </head>
 <body>
-    <h1> Leave Your Print Here :) </h1>
-    <p></p>
+	<div>
+	  <h1>Leave Your Print Here :)</h1>
+	  <h2>SUB HEADING</h2>
+	</div>
+
+	<style>
+	    div {text-align: right;}
+	</style>
 </body>
 </html>
