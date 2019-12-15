@@ -4,8 +4,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-<div style="background-image: url('background.jpg');">
-</div>
-    <h1> Leave Your Print Here :) </h1>
+    <h1 style="background-image: url('background.jpg');"> Leave Your Print Here :) </h1>
 </body>
 </html>
