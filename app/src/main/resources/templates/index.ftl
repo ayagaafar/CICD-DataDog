@@ -8,7 +8,7 @@
 body {
 	background-image: url("https://doc-0g-8c-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/mv2jnuvl5tbb48t3tk5298gsd6s0d5bh/1576447200000/09583266654496447276/*/1z-oC6f9YfgdDibHlRKeh2FVL7XCQmSME?e=download");
         background-repeat:no-repeat;
-       background-size:cover;
+       background-size:auto;
 } 
 
 </style>
