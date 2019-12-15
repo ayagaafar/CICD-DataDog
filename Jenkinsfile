@@ -10,7 +10,7 @@ pipeline {
     	sudo chmod +x /usr/local/bin/docker-compose
 	sudo docker ps
     	docker-compose --version
-        docker-compose up -d --build
+        docker-compose up -d --force-recreate
         curl -vk "http://localhost:8123/"
 			  		
 	'''
