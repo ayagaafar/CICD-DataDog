@@ -1,17 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <title>Welcome To First Ascension Day</title>
-    <style>
+<title>Welcome To First Ascension Day</title>
+
+<style>
 body {
-  background-image: url("https://github.com/ayagaafar/CICD-DataDog/blob/master/app/src/main/resources/templates/background.jpeg");
-  background-position: 50% 50%;
-  background-repeat: repeat;
-}
+	background-image: url("background.jpeg");
+        background-repeat:no-repeat;
+       background-size:cover;
+} 
+
 </style>
+
 </head>
+
 <body>
     <h1> Leave Your Print Here :) </h1>
-    <p></p>
 </body>
 </html>
