@@ -19,14 +19,11 @@
 
 </head>
 <body>
-	<div>
+	<div style="text-align: left;vertical-align: text-bottom;">
 	  <h1> Leave Your Print Here :) </h1>
 	  <h2>   </h2>
 	</div>
 
-	<style>
-	    div {text-align: right;}
-	</style>
 </body>
 </html>
 
