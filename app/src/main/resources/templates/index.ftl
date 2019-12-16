@@ -7,7 +7,7 @@
     <style>
     
     html { 
-	  background: url(https://ibb.co/k5qs5Z3) no-repeat center center fixed; 
+	  background: url(https://i.ibb.co/VJMcJ6H/background.jpg) no-repeat center center fixed; 
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
