@@ -2,8 +2,9 @@ pipeline {
     agent any
 	
     stages {
+	 agent { label 'docker-slave-agent' }   
         stage('clean') {
-		agent { label 'docker-slave-agent' } 
+		
             steps {
                 sh '''
 	sudo chown -R jenkins:jenkins /var/lib/jenkins/workspace/*
@@ -15,7 +16,7 @@ pipeline {
         }
 	    
         stage('App') {
-		agent { label 'docker-slave-agent' } 
+		
             steps {
                 sh '''
 	
