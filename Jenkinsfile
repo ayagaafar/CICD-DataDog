@@ -21,7 +21,7 @@ pipeline {
         stage('clean') {
             steps {
                 sh '''
-		sudo rm /var/lib/jenkins/workspace/*
+		sudo rm -rf /var/lib/jenkins/workspace/*
 			  		
 	'''
 		    
