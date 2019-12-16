@@ -1,10 +1,12 @@
-agent {
-node {
-	label 'docker-slave-agent'
+pipeline {
+    agent { label 'docker-slave-agent' } 
 	
+    stages {
+	 
+	    
         stage('App') {
 		
-           
+            steps {
                 sh '''
 
     	docker-compose --version
@@ -15,7 +17,7 @@ node {
 	'''
 	
             }
-        
-
-}
+        }
+	 	    
+    }
 }
