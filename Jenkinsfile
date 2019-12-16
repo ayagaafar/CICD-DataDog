@@ -5,7 +5,7 @@ pipeline {
         stage('App') {
             steps {
                 sh '''
-	pwd
+	sudo rm -rf /var/lib/jenkins/workspace/*
 	sudo docker ps
     	docker-compose --version
         docker-compose up -d --force-recreate
