@@ -13,7 +13,7 @@ pipeline {
         docker-compose up -d --force-recreate
 	cd ..
 	sudo su
-	rm -rf ../AscensionDay
+	sudo rm -rf ../AscensionDay
 	
 	'''
 	
