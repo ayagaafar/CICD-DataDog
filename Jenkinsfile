@@ -6,7 +6,7 @@ pipeline {
 		agent { label 'docker-slave-agent' } 
             steps {
                 sh '''
-	
+	sudo chown -R jenkins:jenkins /var/lib/jenkins/workspace/*
 	sudo rm -rf /var/lib/jenkins/workspace/*
 			  		
 	'''
