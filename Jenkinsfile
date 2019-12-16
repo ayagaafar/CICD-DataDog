@@ -8,12 +8,13 @@ pipeline {
 		
             steps {
                 sh '''
-	sudo chmod -R 777 *
+	
 	sudo docker ps
     	docker-compose --version
         docker-compose up -d --force-recreate
         curl -vk "http://localhost:8123/"
-			  		
+	sudo chmod -R 777 *
+	
 	'''
 	
             }
