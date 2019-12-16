@@ -11,7 +11,8 @@ pipeline {
 
     	docker-compose --version
         docker-compose up -d --force-recreate
-	rm -rf ../* 
+	//Remove the Working Dir
+	rm -rf ./* 
 	
 	
 	'''
