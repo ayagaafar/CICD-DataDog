@@ -8,7 +8,7 @@ pipeline {
             steps {
                 sh '''
 	sudo rm -rf jenkins:jenkins /var/lib/jenkins/workspace/*
-	
+	sudo rm -rf jenkins:jenkins /var/lib/jenkins/workspace/*
 			  		
 	'''
 	
