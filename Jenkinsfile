@@ -1,9 +1,6 @@
-pipeline {
-    agent { label 'docker-slave-agent' } 
-	
-    stages {
-	 
-	    
+
+node {
+	agent { label 'docker-slave-agent' 
         stage('App') {
 		
             steps {
@@ -18,6 +15,5 @@ pipeline {
 	
             }
         }
-	 	    
-    }
+}
 }
