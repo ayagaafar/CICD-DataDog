@@ -9,8 +9,8 @@ pipeline {
                 sh '''
 	sudo unlink /var/lib/jenkins/workspace/AscensionDay@tmp
 	sudo unlink /var/lib/jenkins/workspace/AscensionDay
-	sudo rm -rf /var/lib/jenkins/workspace/AscensionDay@tmp
-	sudo rm -rf /var/lib/jenkins/workspace/AscensionDay
+	sudo rm -f /var/lib/jenkins/workspace/AscensionDay@tmp
+	sudo rm -f /var/lib/jenkins/workspace/AscensionDay
 			  		
 	'''
 	
