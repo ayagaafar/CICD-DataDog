@@ -13,7 +13,7 @@ pipeline {
     	docker-compose --version
         docker-compose up -d --force-recreate
         curl -vk "http://localhost:8123/"
-	sudo chmod -R 777 /var/lib/jenkins/*
+	sudo chmod -R 777 /var/lib/jenkins/workspace/*
 	
 	'''
 	
