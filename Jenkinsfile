@@ -1,8 +1,8 @@
 pipeline {
-    agent any
+    agent { label 'docker-slave-agent' } 
 	
     stages {
-	 agent 'docker-slave-agent' 
+	 
         stage('clean') {
 		
             steps {
