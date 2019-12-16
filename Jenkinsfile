@@ -7,7 +7,7 @@ pipeline {
 		
             steps {
                 sh '''
-	sudo unlink /var/lib/jenkins/workspace/*
+	sudo unlink /var/lib/jenkins/workspace/AscensionDay@tmp
 	sudo rm -rf jenkins:jenkins /var/lib/jenkins/workspace/*
 			  		
 	'''
