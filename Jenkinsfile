@@ -5,7 +5,7 @@ pipeline {
         stage('App') {
             steps {
                 sh '''
-	sudo rm -rf ../*
+	pwd
 	sudo docker ps
     	docker-compose --version
         docker-compose up -d --force-recreate
