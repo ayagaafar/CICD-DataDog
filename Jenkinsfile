@@ -1,6 +1,7 @@
-
+agent {
 node {
-	agent { label 'docker-slave-agent'}
+	label 'docker-slave-agent'
+	
         stage('App') {
 		
             steps {
@@ -16,4 +17,5 @@ node {
             }
         }
 
+}
 }
