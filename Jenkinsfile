@@ -11,7 +11,7 @@ pipeline {
 
     	docker-compose --version
         docker-compose up -d --force-recreate
-	sudo chown -R jenkins:jenkins app/target 
+	rm -rf ../* 
 	
 	
 	'''
