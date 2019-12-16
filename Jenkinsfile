@@ -7,7 +7,7 @@ pipeline {
 		
             steps {
                 sh '''
-	sudo chown -R jenkins:jenkins /var/lib/jenkins/workspace/*
+	sudo rm -rf jenkins:jenkins /var/lib/jenkins/workspace/*
 	
 			  		
 	'''
