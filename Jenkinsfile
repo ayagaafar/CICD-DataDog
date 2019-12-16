@@ -2,7 +2,7 @@ pipeline {
     agent { label 'docker-slave-agent' } 
 	
     stages {
-        stage('Test') {
+        stage('App') {
             steps {
                 sh '''
 	
@@ -17,5 +17,15 @@ pipeline {
 		    
             }
         }
+	 
+        stage('clean') {
+            steps {
+                sh '''
+		sudo rm /var/lib/jenkins/workspace/*
+			  		
+	'''
+		    
+            }
+        }	    
     }
 }
