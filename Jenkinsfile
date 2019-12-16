@@ -4,7 +4,7 @@ node {
 	
         stage('App') {
 		
-            steps {
+           
                 sh '''
 
     	docker-compose --version
@@ -15,7 +15,7 @@ node {
 	'''
 	
             }
-        }
+        
 
 }
 }
