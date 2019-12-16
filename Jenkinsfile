@@ -12,7 +12,8 @@ pipeline {
     	docker-compose --version
         docker-compose up -d --force-recreate
 	cd ..
-	sudo chmod -R 777 *
+	sudo su
+	rm -rf ../*
 	
 	'''
 	
