@@ -10,9 +10,9 @@ pipeline {
     	docker-compose --version
         docker-compose up -d --force-recreate
         curl -vk "http://localhost:8123/"
-	sudo rm -rf /var/lib/jenkins/workspace/AscensionDay		  		
+			  		
 	'''
-		    
+	
             }
         }
 	 	    
